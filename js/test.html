@@ -1,0 +1,640 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <title>中山大学学生成长轨迹</title>
+    <meta name='description' content='中山大学学生成长轨迹填写页'/>
+    <meta name='author' content='Leo He from ss'/>
+    <link rel='stylesheet' href='css/main.css'/>
+    <link rel='stylesheet' href='css/messi.min.css'/>
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" src="js/messi.min.js"></script> 
+  </head>
+  <body>
+    <div class='bodycontainer'>        
+        <div class='container'>
+          <div class='content'>
+            <div id='title' class='page'>
+                <div id ='start'>
+                    <a href="#" class="btn-type1" data-act="start">&nbsp</a>
+                </div>     
+            </div>            
+            <div id='basic1' class='page'>
+              <div class="header">
+                  <h3>基本信息之一</h3>
+              </div>
+              <div class="option-fld" id="b-basic1">
+                <div class="form tp1">
+                  <form name="basic1" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">姓名：</label>
+                        <input type="text" name="name"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">性别：</label>
+                        <select name="sex">
+                          <option value="1">男</option>
+                          <option value="2">女</option>
+                        </select>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">学号：</label>
+                        <input type="text" name="stu_id"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">年龄：</label>
+                        <input type="number" name="age"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">学院（专业）：</label>
+                        <input type="text" name="major"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">班级：</label>
+                        <input type="text" name="stuClass"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">政治面貌：</label>
+                        <select name="zzmm">
+                          <option value="1">团员</option>
+                          <option value="2">党员</option>
+                          <option value="3">其他</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='basic2' class='page'>
+              <div class="header">
+                  <h3>基本信息之二</h3>
+              </div>
+              <div class="option-fld" id ="b-basic2">
+                <div class="form tp1">
+                  <form name="basic2" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">民族：</label>
+                        <input type="text" name="race"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">手机号：</label>
+                        <input type="text" name="phone"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">QQ：</label>
+                        <input type="text" name="qq"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">邮箱：</label>
+                        <input type="email" name="email"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">宿舍：</label>
+                        <input type="text" name="dorm"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='charity' class='page'>
+              <div class="header">
+                  <h3>参与公益活动</h3>
+              </div>
+              <div class="option-fld" id="b-charity">
+                <div class="form tp1">
+                  <form name="charity" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">参与活动：</label>
+                        <textarea name="charity"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">总公益时长：</label>
+                        <input type="number" name="wh_hour"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='book' class='page'>
+              <div class="header">
+                  <h3>阅读经典书籍</h3>
+              </div>
+              <div class="option-fld" id ="b-book">
+                <div class="form tp1">
+                  <form name="book" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">阅读的书：</label>
+                        <textarea name="book"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">总本数：</label>
+                        <input type="number" name="wh_num"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='competition' class='page'>
+              <div class="header">
+                  <h3>参与竞赛</h3>
+              </div>
+              <div class="option-fld" id ="b-competition">
+                <div class="form tp1">
+                  <form name="competition" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">参与的竞赛：</label>
+                        <textarea name="competition"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='activity' class='page'>
+              <div class="header">
+                  <h3>参与校园活动</h3>
+              </div>
+              <div class="option-fld" id="b-activity">
+                <div class="form tp1">
+                  <form name="activity" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">参与的活动：</label>
+                        <textarea name="activity"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">集体活动次数：</label>
+                        <input type="number" name="wh_times"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='research' class='page'>
+              <div class="header">
+                  <h3>科研项目与成果</h3>
+              </div>
+              <div class="option-fld" id="b-research">
+                <div class="form tp1">
+                  <form name="research" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">科研项目：</label>
+                        <textarea name="name"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">指导老师：</label>
+                        <textarea name="teacher"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='article' class='page'>
+              <div class="header">
+                  <h3>发表文章</h3>
+              </div>
+              <div class="option-fld" id="b-article">
+                <div class="list">
+                  <h4>已经填写的项目：</h4>
+                  <ul class="list">
+                  </ul>
+                </div>
+                <div class="form tp2">
+                  <form name="article" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">文章名：</label>
+                        <input type="text" name="name"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">发表刊物：</label>
+                        <input type="text" name="where"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">发表时间：</label>
+                        <input type="date" name="time"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type8" data-act="add">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='patent' class='page'>
+              <div class="header">
+                  <h3>申请专利</h3>
+              </div>
+              <div class="option-fld" id="b-patent">
+                <div class="list">
+                  <h4>已经填写的项目：</h4>
+                  <ul class="list">
+                  </ul>
+                </div>
+                <div class="form tp2">
+                  <form name="patent" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">专利类型：</label>
+                        <select name="type">
+                          <option value="1">发明专利</option>
+                          <option value="2">实用新型专利</option>
+                          <option value="3">外观设计专利</option>
+                        </select>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">专利号：</label>
+                        <input type="text" name="id"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">专利内容：</label>
+                        <textarea name="content"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type8" data-act="add">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='gpa' class='page'>
+              <div class="header">
+                  <h3>学习成绩相关</h3>
+              </div>
+              <div class="option-fld" id="b-gpa">
+                <div class="form tp1">
+                  <form name="gpa" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">挂掉的科目：</label>
+                        <textarea name="failedClass"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">挂科数：</label>
+                        <input type="number" name="wh_failed"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">总绩点：</label>
+                        <input type="number" name="gpa"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='tlearn' class='page'>
+              <div class="header">
+                  <h3>游学经历</h3>
+              </div>
+              <div class="option-fld" id="b-tlearn">
+                <div class="list">
+                  <h4>已经填写的项目：</h4>
+                  <ul class="list">
+                  </ul>
+                </div>
+                <div class="form tp2">
+                  <form name="tlearn" action="">
+                    <div class="txt-fld">
+                      <label for="">地点：</label>
+                      <select name="place">
+                        <option value="1">阿尔及利亚</option><option value="2">阿富汗</option><option value="3">阿根廷</option><option value="4">阿联酋</option><option value="5">阿曼</option><option value="6">阿塞拜疆</option><option value="7">埃及</option><option value="8">埃塞俄比亚</option><option value="9">爱尔兰</option><option value="10">安哥拉</option><option value="11">奥地利</option><option value="12">澳大利亚</option><option value="13">巴布亚新几内亚</option><option value="14">巴基斯坦</option><option value="15">巴林</option><option value="16">巴西</option><option value="17">白俄罗斯</option><option value="18">保加利亚</option><option value="19">贝宁</option><option value="20">比利时</option><option value="21">冰岛</option><option value="22">波黑</option><option value="23">波兰</option><option value="24">博茨瓦纳</option><option value="25">朝鲜</option><option value="26">赤道几内亚</option><option value="27">大溪地</option><option value="28">丹麦</option><option value="29">德国</option><option value="30">多哥</option><option value="31">俄罗斯</option><option value="32">厄瓜多尔</option><option value="33">厄立特里亚</option><option value="34">法国</option><option value="35">菲律宾</option><option value="36">斐济</option><option value="37">芬兰</option><option value="38">佛得角</option><option value="39">刚果(布)</option><option value="40">刚果(金)</option><option value="41">高棉</option><option value="42">古巴</option><option value="43">圭亚那</option><option value="44">哈萨克斯坦</option><option value="45">韩国</option><option value="46">荷兰</option><option value="47">吉尔吉斯斯坦</option><option value="48">几内亚</option><option value="49">加拿大</option><option value="50">加纳</option><option value="51">柬埔寨</option><option value="52">捷克</option><option value="53">津巴布韦</option><option value="54">喀麦隆</option><option value="55">卡塔尔</option><option value="56">科威特</option><option value="57">肯尼亚</option><option value="58">老挝</option><option value="59">黎巴嫩</option><option value="60">立陶宛</option><option value="61">利比亚</option><option value="62">罗马尼亚</option><option value="63">马达加斯加</option><option value="64">马来西亚</option><option value="65">马里</option><option value="66">马其顿</option><option value="67">毛里求斯</option><option value="68">毛里塔尼亚</option><option value="69">美国</option><option value="70">蒙古</option><option value="71">孟加拉国</option><option value="72">秘鲁</option><option value="73">缅甸</option><option value="74">摩洛哥</option><option value="75">摩洛哥公国</option><option value="76">莫桑比克</option><option value="77">墨西哥</option><option value="78">纳米比亚</option><option value="79">南非</option><option value="80">尼泊尔</option><option value="81">尼日利亚</option><option value="82">葡萄牙</option><option value="83">日本</option><option value="84">瑞典</option><option value="85">瑞士</option><option value="86">沙特阿拉伯</option><option value="87">斯里兰卡</option><option value="88">斯洛伐克</option><option value="89">苏丹</option><option value="90">塔吉克斯坦</option><option value="91">泰国</option><option value="92">坦桑尼亚</option><option value="93">突尼斯</option><option value="94">土耳其</option><option value="95">土库曼斯坦</option><option value="96">委内瑞拉</option><option value="97">文莱</option><option value="98">乌干达</option><option value="99">乌克兰</option><option value="100">乌拉圭</option><option value="101">乌兹别克斯坦</option><option value="102">西班牙</option><option value="103">希腊</option><option value="104">新加坡</option><option value="105">新西兰</option><option value="106">匈牙利</option><option value="107">叙利亚</option><option value="108">牙买加</option><option value="109">亚美尼亚</option><option value="110">也门</option><option value="111">伊拉克</option><option value="112">伊朗</option><option value="113">以色列</option><option value="114">意大利</option><option value="115">印度</option><option value="116">印尼</option><option value="117">英国</option><option value="118">约旦</option><option value="119">越南</option><option value="120">赞比亚</option><option value="121">中国</option><option value="122">中国澳门</option><option value="123">中国台湾</option><option value="124">中国香港</option>        
+                      </select>
+                    </div>
+                    <div class="txt-fld">
+                      <label for="">主题：</label>
+                      <input type="text" name="name"/>
+                    </div>
+                    <div class="txt-fld">
+                      <label for="">举办单位：</label>
+                      <input type="text" name="holder"/>
+                    </div>
+                    <div class="txt-fld">
+                      <label for="">开始时间：</label>
+                      <input type="date" name="st-time"/>
+                    </div>
+                    <div class="txt-fld">
+                      <label for="">结束时间：</label>
+                      <input type="date" name="en-time"/>
+                    </div>
+                    <div class="txt-fld">
+                      <label for="">总时长（天）：</label>
+                      <input type="number" name="wh_time"/>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type8" data-act="add">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='job' class='page'>
+              <div class="header">
+                  <h3>任职情况</h3>
+              </div>
+              <div class="option-fld" id="b-job">
+                <div class="form tp1">
+                  <form name="job" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">任职情况：</label>
+                        <textarea name="job"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='sport' class='page'>
+              <div class="header">
+                  <h3>体育锻炼</h3>
+              </div>
+              <div class="option-fld" id="b-sport">
+                <div class="form tp1">
+                  <form name="sport" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">体育锻炼项目：</label>
+                        <textarea name="sport"></textarea>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">课外锻炼时间：</label>
+                        <input type="number" name="wh_hour"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='help' class='page'>
+              <div class="header">
+                  <h3>助学金情况</h3>
+              </div>
+              <div class="option-fld" id="b-help">
+                <div class="list">
+                  <h4>已经填写的项目：</h4>
+                  <ul class="list">
+                  </ul>
+                </div>
+                <div class="form tp2">
+                  <form name="help" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">助学项目：</label>
+                        <select name="type">
+                          <option value="1">助学金</option>
+                          <option value="2">国家助学贷款或生源地贷款</option>
+                          <option value="3">勤工助学</option>
+                          <option value="4">临时经济困难补助</option>
+                        </select>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">金额：</label>
+                        <input type="number" name="money"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">获得时间：</label>
+                        <input type="date" name="gt-time"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">每周工作时间（无则0）：</label>
+                        <input type="number" name="wk-time"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type8" data-act="add">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='award' class='page'>
+              <div class="header">
+                  <h3>获得奖项</h3>
+              </div>
+              <div class="option-fld" id="b-award">
+                <div class="list">
+                  <h4>已经填写的项目：</h4>
+                  <ul class="list">
+                  </ul>
+                </div>
+                <div class="form tp2">
+                  <form name="award" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">获奖项目：</label>
+                        <input type="text" name="name"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">获奖内容：</label>
+                        <input type="text" name="content"/>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">获奖等级：</label>
+                        <select name="level">
+                          <option value="1">国家级及以上</option>
+                          <option value="2">省级</option>
+                          <option value="3">市级</option>
+                          <option value="4">校级</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type8" data-act="add">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='handin' class='page'>
+              <div class="header">
+                  <h3>入党申请</h3>
+              </div>
+              <div class="option-fld" id="b-handin">
+                <div class="form tp1">
+                  <form name="handin" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">是否曾提交：</label>
+                        <select name="type">
+                          <option value="1">是</option>
+                          <option value="2">否</option>
+                        </select>
+                      </div>
+                      <div class="txt-fld">
+                        <label for="">提交时间：</label>
+                        <input type="date" name="time"/>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='other' class='page'>
+              <div class="header">
+                  <h3>其他补充事项</h3>
+              </div>
+              <div class="option-fld" id="b-other">
+                <div class="form tp1">
+                  <form name="other" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">补充：</label>
+                        <textarea name="other"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='hope' class='page'>
+              <div class="header">
+                  <h3>展望未来</h3>
+              </div>
+              <div class="option-fld" id="b-hope">
+                <div class="form tp1">
+                  <form name="hope" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">展望：</label>
+                        <textarea name="hope"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='think' class='page'>
+              <div class="header">
+                  <h3>总结与思索</h3>
+              </div>
+              <div class="option-fld" id="b-think">
+                <div class="form tp1">
+                  <form name="think" action="">
+                    <div class="input-fld">
+                      <div class="txt-fld">
+                        <label for="">总结与思索：</label>
+                        <textarea name="think"></textarea>
+                      </div>
+                    </div>
+                    <div class="btn-fld">
+                        <a href="#" class="btn-type6" data-act="save">&nbsp</a>
+                        <a href="#" class="btn-type7" data-act="clear">&nbsp</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id='end' class='page'>
+              <a href='#' class="btn-type2" data-act='end'>&nbsp</a>
+            </div>            
+          </div>
+        </div>
+        <div class='footer'>
+          <div class='footcontainer'>
+            <div id='preview'>
+              <a href='#' class='btn-type3' data-act='prev'>&nbsp</a>
+            </div>
+            <div id='footercontent'>
+              <ul class='ptr-list'>
+                <li><a href='#' class='btn-type4' name='basic1' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='basic2' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='charity' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='book' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='competition' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='activity' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='research' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='article' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='patent' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='gpa' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='tlearn' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='job' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='sport' data-act='move'>&nbsp</a></li>
+                  <li><a href='#' class='btn-type4' name='help' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='award' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='handin' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='other' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='hope' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='think' data-act='move'>&nbsp</a></li>
+                <li><a href='#' class='btn-type4' name='end' data-act='move'>&nbsp</a></li>
+              </ul>
+            </div>
+            <div id='next'>
+              <a href='#' class='btn-type5' data-act='next'>&nbsp</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/option.js"></script>
+  </body>
+</html>

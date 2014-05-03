@@ -1,0 +1,323 @@
+div.bodycontainer{
+    height:100%;
+	width:100%;
+	padding:0;
+}
+img.title{
+    position:center;
+}
+div#container{
+    height:650px;
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+div#content{
+    width:15900px;
+    height:650px;
+	position:relative;
+	left:0px;
+	background-color:#ffa;
+}
+div#title{
+    width:150px;
+	height:650px;
+	display:inline-block;
+	position:relative;
+	top:-75px;
+}
+div#basic1{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:225px;
+	left:250px;
+	display:inline-block;
+}
+div#basic2{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:345px;
+	left:750px;
+	display:inline-block;
+}
+div#charity{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:75px;
+	left:1300px;
+	display:inline-block;
+}
+div#book{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:475px;
+	left:1850px;
+	display:inline-block;
+}
+div#competition{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:125px;
+	left:2360px;
+	display:inline-block;
+}
+div#activity{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:325px;
+	left:2900px;
+	display:inline-block;
+}
+div#research{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:225px;
+	left:3430px;
+	display:inline-block;
+}
+div#article{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:425px;
+	left:4000px;
+	display:inline-block;
+}
+div#patent{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:75px;
+	left:4530px;
+	display:inline-block;
+}
+div#gpa{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:375px;
+	left:5070px;
+	display:inline-block;
+}
+div#tlearn{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:225px;
+	left:5700px;
+	display:inline-block;
+}
+div#job{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:75px;
+	left:6200px;
+	display:inline-block;
+}
+div#sport{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:385px;
+	left:6720px;
+	display:inline-block;
+}
+div#help{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:125px;
+	left:7240px;
+	display:inline-block;
+}
+div#award{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:275px;
+	left:7770px;
+	display:inline-block;
+}
+div#handin{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:125px;
+	left:8300px;
+	display:inline-block;
+}
+div#other{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:225px;
+	left:9000px;
+	display:inline-block;
+}
+div#hope{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:75px;
+	left:9700px;
+	display:inline-block;
+}
+div#think{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:325px;
+	left:10400px;
+	display:inline-block;
+}
+div#end{
+    height:100px;
+	width:200px;
+	position:relative;
+	top:225px;
+	left:11000px;
+	display:inline-block;
+}
+ul.btn-list{
+    position:relative;
+	top:-150px;
+}
+ul.btn-list>li{
+    list-style-type:none;
+	display:inline;
+}
+a.btn-type2{
+    height:25px;
+	width:55px;
+}
+a[class="btn-type2"][name="basic2"]{
+    position:relative;
+	top:-200px;
+	left:670px;
+}
+a[class="btn-type2"][name="charity"]{
+    position:relative;
+	top:-100px;
+	left:1370px;
+}
+a[class="btn-type2"][name="book"]{
+    position:relative;
+	top:-380px;
+	left:2100px;
+}
+a[class="btn-type2"][name="competition"]{
+    position:relative;
+	top:20px;
+	left:2830px;
+}
+a[class="btn-type2"][name="activity"]{
+    position:relative;
+	top:-330px;
+	left:3540px;
+}
+a[class="btn-type2"][name="research"]{
+    position:relative;
+	top:-130px;
+	left:4280px;
+}
+a[class="btn-type2"][name="article"]{
+    position:relative;
+	top:-230px;
+	left:5000px;
+}
+a[class="btn-type2"][name="patent"]{
+    position:relative;
+	top:-20px;
+	left:5750px;
+}
+a[class="btn-type2"][name="gpa"]{
+    position:relative;
+	top:-380px;
+	left:6460px;
+}
+a[class="btn-type2"][name="tlearn"]{
+    position:relative;
+	top:-80px;
+	left:7200px;
+}
+a[class="btn-type2"][name="job"]{
+    position:relative;
+	top:-230px;
+	left:8020px;
+}
+a[class="btn-type2"][name="sport"]{
+    position:relative;
+	top:-380px;
+	left:8720px;
+}
+a[class="btn-type2"][name="help"]{
+    position:relative;
+	top:-70px;
+	left:9430px;   
+}
+a[class="btn-type2"][name="award"]{
+    position:relative;
+	top:-330px;
+	left:10140px;
+}
+a[class="btn-type2"][name="handin"]{
+    position:relative;
+	top:-170px;
+	left:10860px;
+}
+a[class="btn-type2"][name="other"]{
+    position:relative;
+	top:-330px;
+	left:11580px;
+}
+a[class="btn-type2"][name="hope"]{
+    position:relative;
+	top:-220px;
+	left:12470px;
+}
+a[class="btn-type2"][name="think"]{
+    position:relative;
+	top:-380px;
+	left:13370px;
+}
+a[class="btn-type2"][name="end"]{
+    position:relative;
+	top:-130px;
+	left:14270px;
+}
+ul.ptr-list>li{
+    list-style-type:none;
+	display:inline;
+}
+div.footer{
+    background-color:#f6f;
+	padding-left:auto;
+	padding-right:auto;
+	position:relative;
+}
+div.footer>div>div{
+    display:inline-block;
+}
+.tmp{
+    position:relative;
+	top:-240px;
+}
+#lean_overlay { position: fixed; z-index: 100; top: 0px; left: 0px; height: 100%; width: 100%; background: #000; display: none; }
+.OpenWindow { background: none repeat scroll 0 0 #FFFFFF; border-radius: 5px 5px 5px 5px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.7); display: none; padding-bottom: 2px;  width: 500px; z-index: 11000;  left: 50%;  margin-left: -202px;  opacity: 1;  position: fixed;  top: 200px;}
+.OpenWindow-header {background: url("Image/hd-bg.png") repeat scroll 0 0 transparent; border-bottom: 1px solid #CCCCCC; border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 18px 18px 14px; }
+.modal_close { background: url("Image/modal_close.png") repeat scroll 0 0 transparent; display: block; height: 14px; position: absolute; right: 12px; top: 12px; width: 14px; z-index: 2; }
+.OpenWindow .txt-fld { border-bottom: 1px solid #EEEEEE; padding: 14px 20px; position: relative; text-align: right; width: 460px; }
+.OpenWindow .txt-fld input { background: none repeat scroll 0 0 #F7F7F7; border-color: #CCCCCC #E7E6E6 #E7E6E6 #CCCCCC; border-radius: 4px 4px 4px 4px; border-style: solid; border-width: 1px; color: #222222; font-family: "Helvetica Neue"; font-size: 1.2em; outline: medium none; padding: 8px; width: 275px; }
+.OpenWindow .txt-fld input.good_input { background: url("Image/good.png") no-repeat scroll 267px center #DEF5E1; }
+.OpenWindow .btn-fld { overflow: hidden; padding: 12px 20px 12px 130px; width: 254px; }
+.OpenWindow .txt-fld select{background: none repeat scroll 0 0 #F7F7F7; border-color: #CCCCCC #E7E6E6 #E7E6E6 #CCCCCC; border-radius: 4px 4px 4px 4px; border-style: solid; border-width: 1px; color: #222222; font-family: "Helvetica Neue"; font-size: 1.2em; outline: medium none; padding: 8px; width: 290px; }
+.OpenWindow .txt-fld textarea{background: none repeat scroll 0 0 #F7F7F7; border-color: #CCCCCC #E7E6E6 #E7E6E6 #CCCCCC; border-radius: 4px 4px 4px 4px; border-style: solid; border-width: 1px; color: #222222; font-family: "Helvetica Neue"; font-size: 1.2em; outline: medium none; padding: 8px; width: 280px; height:250px;}
+a.btn-type6 { background: none repeat scroll 0 0 #3F9D4A; border: medium none; border-radius: 4px 4px 4px 4px; color: #FFFFFF; float: right; font-family: Verdana; font-size: 13px; font-weight: bold; overflow: visible; padding: 7px 10px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); width: auto; }

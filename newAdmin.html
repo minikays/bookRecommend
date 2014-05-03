@@ -1,0 +1,37 @@
+<?php
+	session_start();
+	if(!isset($_SESSION['valid_user']))
+		header("location:not_login.html");
+?>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/newAdmin.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/newAdmin.js"></script> 
+</head>
+
+<body>	
+
+	<div id="bodyContent">
+		<div id="header"></div>
+		<div id="header_bot"></div>
+		<div id="main">
+			<div id="mainpic">
+				<id="mainCont">
+					<form id="pwForm">
+						<label for="">新用户名:</label><input type="text" name="admin" id="s1"></br>
+						<label for="">密码:&nbsp &nbsp </label><input type="password" name="newPw" id="s2"></br>
+						<label for="">再次输入:</label><input type="password" name="newPw_again" id="s3">
+						<input id="enter" type="button" value="确定" class="buttonStyle" />
+					</form>
+					<div id="pwTip"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer"><div id="footer_text">技术支持：中山大学学生软件技术发展中心</div></div>
+</body>
+</html>

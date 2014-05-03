@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>中山大学学生成长轨系统登录</title>
+    <link rel='stylesheet' href='css/login.css' />
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/login.js'></script>
+
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <p class="error">&nbsp</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="input-table">
+                <table id="mytable">
+                    <tr>&nbsp</tr>
+                    <tr>
+                        <td class="td1">
+						
+                            <label for="sid">
+                                <img src="css/img/login/sid.png" onload="ReImgSize()" /></label></td>
+                        <td class="td2">
+                            <input class="inputform" id='sid' type='text' /></td>
+                        <td class="td2" id="useridWarn"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            <label for="password">
+                                <img src="css/img/login/password.png" onload="ReImgSize()" /></label></td>
+                        <td class="td2">
+                            <input class="inputform" id='password' type='password' /></td>
+                        <td class="td2" id="passwordWarn"></td>
+                    </tr>
+                    <tr id="firstFill">
+                        <td class="td1">
+                            <label for="passwordAga">
+                                <img src="css/img/login/passwordAga.png" onload="ReImgSize()" /></label></td>
+                        <td class="td2">
+                            <input class="inputform" id='passwordAga' type='password' /></td>
+                        <td class="td2" id="passwordAgaWarn"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <div id="button">
+                            <td colspan="2">
+                                <input id='first' type='button' value='第一次填写' style="width: 80px; height: 30px" class="button" />
+                                <input id='modify' type="button" value="修改密码" style="width: 80px; height: 30px" class="button" />
+                                <input id='login' type="button" value="登录" style="width: 80px; height: 30px" class="button" /></td>
+                        </div>
+                        <td></td>
+                    </tr>
+                    <tr id="note">
+                        <td colspan="3">
+                            <img src="css/img/login/hint.png" onload="ReImgSize()" />
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="clear"></div>
+        </div>
+		
+		
+	
+    <div class="footer">
+        <div class="footer-content">
+			
+            <p>中山大学IT文化俱乐部出品</p>
+			<p><font size = 2px>请使用chrome或者360浏览器访问本网页 </font></p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    </div>
+</body>
+</html>

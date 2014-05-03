@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.js"></script> 
+<script type="text/javascript" src="js/all.js"></script>
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+
+<title>成长轨</title>
+</head>
+<body>
+<div id = "first">
+<p id = "lmt1">asdfadf</p>
+<p id = "lmt2">adfadsf</p>
+<p id = "sid">11330000</p>
+<p id = "fillYear">2001</p>
+<table width="500" border="1">
+  <caption>
+    成长轨
+  </caption>
+   <tr>
+    <td>名字:</td>
+    <td id = "name"></td>
+    <td>性别:</td>
+    <td id = "gender"></td>
+    <td>学号:</td>
+    <td id = "stuid"></td>
+  </tr>
+  <tr>
+    <td>政治面貌:</td>
+    <td id = "politics"></td>
+    <td>手机号:</td>
+    <td id = "phone"></td>
+    <td>宿舍:</td>
+    <td id = "dorm"></td>
+  </tr>
+  <tr>
+    <td>院系:</td>
+    <td id = "department"></td>
+    <td>年级:</td>
+    <td id = "grade"></td>
+    <td>专业:</td>
+    <td id = "major"></td>
+  </tr>
+  <tr>
+    <td>班级:</td>
+    <td id = "class"></td>
+    <td>邮箱:</td>
+    <td id = "email"></td>
+    <td>QQ:</td>
+    <td id = "qq"></td>
+  </tr>
+</table>
+</div>
+
+<div id = "second">
+<table width="500" border="1">
+  <caption>
+    我的大一（上）
+  </caption>
+   <tr>
+    <td>我参加过的公益活动有：<p id = "charityAct"></p><span id = "charityHours">共计</span><span>个公益小时</span></td>
+    <td>我阅读了以下课外经典书籍：<p id = "book"></p><span id = "bookNum">共计</span><span>本</span></td>
+	<td>我参加了以下的课外竞赛：（包括竞赛项目、竞赛时间、竞赛地点及获奖情况）：<p id = "competition"></p></td>
+  </tr>
+  <tr>
+    <td rowspan="2">我参与了以下的集体活动：（包括班级、社团等）<p id = "groupAct"></p><span id = "groupActTimes">累计</span><span>次</span></td>
+	<td>我参加的科研项目及指导老师是：<p id = "SciPro"></p></td>
+	<td>我申请了以下专利:<p id = "patent"></p></td>
+  </tr>
+  <tr>
+	<td>文章、论文发表的刊物、时间：<p id = "paper"></p></td>
+	<td><span id = "failSubNum">我不及格的科目有</span><span>门，分别是</span><p id = "failSub"></p><span id = "GPA">我取得的绩点是：</span></td>
+  </tr>
+</table>
+</div>
+
+<div id = "third">
+<table width="500" border="1">
+  <caption>
+    我的大一（下）
+  </caption>
+   <tr>
+    <td rowspan = "2">我的短期游学经历有：（包括短期境外文化交流的时间、地点、主题及举办单位）<p id = "Tour"></p></td>
+    <td rowspan = "4">我接受了以下的帮助：助学金（项目、金额、时间）：<p id = "grantInAid"></p>国家助学贷款或生源地贷款：<p id = "loan"></p>勤工助学（工作单位、每周工作时间）：<p id = "partTimeJob"></p>临时经济困难补助（获补助时间、金额）：<p id = "Allowance"></p></td>
+	<td rowspan = "2">我获得了以下的奖项：<p>校内:</p><p id = "inside"></p><p>校外：</p><p id = "outside"></p></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td>我的任职情况如下：<p id = "occupation"></p></td>
+	<td>我的其他经历有：<p id = "otherExp"></p></td>
+  </tr>
+  <tr>
+	<td>我参加了以下的课外锻炼：<p id = "train"></p><span id = "trainHours">每日大约平均</span><span>个小时</span></td>
+	<td>我于<span id = "applyDateYear"></span><span>年</span><span id = "applyDateMonth"></span><span>月</span><span id = "applyDateDay"></span><span>日向党组织递交了入党申请书。</span></td>
+  </tr>
+</table>
+</div>
+
+<div id = "forth">
+<table width="500" border="1">
+  <caption>
+    我的大二
+  </caption>
+  <tr>
+	<th>愿 景</th>
+	<th>感 悟</th>
+  <tr>
+  <tr>
+    <td>公益活动<p id = "FcharityAct"></p></td>
+    <td rowspan = "9"><p id = "thought"></p></td>
+  </tr>
+  <tr>
+    <td>成绩绩点<p id = "FGPA"></p></td>
+  </tr>
+  <tr>
+    <td>课外阅读<p id = "Fbook"></p></td>
+  </tr>
+  <tr>
+    <td>参与科研<p id = "FsciPro"></p></td>
+  </tr>
+  <tr>
+    <td>文章发表<p id = "Fpaper"></p></td>
+  </tr>
+  <tr>
+    <td>课外竟赛<p id = "Fcompetition"></p></td>
+  </tr>
+  <tr>
+    <td>游学经历<p id = "Ftour"></p></td>
+  </tr>
+  <tr>
+    <td>社会活动<p id = "FgroupAct"></p></td>
+  </tr>
+  <tr>
+    <td>我计划于<span id = "FapplyDateYear"></span><span>年</span><span id = "FapplyDateMonth"></span><span>月</span><span id = "FapplyDateDay"></span><span>日递交入党申请书。</span></td>
+  </tr>
+  <tr>
+    <td>其它经历<p id = "FotherExp"></p></td>
+	<td>本人在此郑重声明，上述填写的材料真实有效。 </td>
+  </tr>
+  
+</table>
+</div>
+</body>
+</html>

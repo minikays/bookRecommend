@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title> 密码修改</title>
+    <link rel='stylesheet' href='css/login.css' />
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/login.js'></script>
+
+</head>	
+	<script type = "text/javascript">
+		function check(){
+			
+			var f = document.pass;
+			var oldps = f.oldpassword.value;
+			var newps = f.newpassword1.value;
+			var newps2 = f.newpassword2.value;
+
+			if (oldps ==  "" || newps == "" || newps2 == ""){
+				alert("密码框不能为空，请重新输入");
+				return false;
+			}
+			
+			if (newps != newps2){
+				alert("两次密码输入不一致，请重新输入");
+				return false;
+			}
+			
+			return true;
+		}
+	
+	</script>
+
+<body>
+
+    <div class="input-table">
+	<table border = "0" align = "center" width = 550>
+        <h1 align = 'center'>修改用户密码</h1>
+		<form name = "pass" method = "post">
+			
+            <tr>
+                <th>请输入你的学号</th>
+                <td>
+					<input type = "text" name = "userid" size = "50" />
+				</td>
+			</tr>
+			<tr>
+				<th>请输入原密码</th>
+				<td>
+					<input type = "password" name = "oldpassword" size = "50" />
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<th>请输入新密码</th>
+				<td>
+					<input type = "password" name = "newpassword1" size = "50" />
+				</td>
+			</tr>
+			
+			<tr>
+				<th>请再次输入新密码</th>
+				<td>
+					<input type = "password" name = "newpassword2" size = "50">
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan = "2" align = "center" name = "sub">
+					<input type = "submit"  onclick = "return check()">
+				</td>
+			</tr>
+		</form>
+	</table>
+    </div>
+</body>
+
+</html>
